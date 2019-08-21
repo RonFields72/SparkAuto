@@ -51,13 +51,13 @@ namespace SparkAuto
 
             services.AddAuthentication().AddFacebook(fb =>
             {
-                fb.AppId = "451084785446599";
-                fb.AppSecret = "c71fbe658ef2cb7406809e918579f90b";
+                fb.AppId = "ReplaceWithActualValue";
+                fb.AppSecret = "ReplaceWithActualValue";
             });
             services.AddAuthentication().AddGoogle(g =>
             {
-                g.ClientId = "82119954768-qf0miqfej5ah3mo7eqlguqv6uapmjkh0.apps.googleusercontent.com";
-                g.ClientSecret = "XX1NFnDpjak_tc1nrr9wjMO7";
+                g.ClientId = "ReplaceWithActualValue";
+                g.ClientSecret = "ReplaceWithActualValue";
             });
 
             services.Configure<EmailOptions>(Configuration);
